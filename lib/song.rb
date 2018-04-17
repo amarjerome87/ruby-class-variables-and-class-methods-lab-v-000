@@ -36,8 +36,8 @@ def self.count
     else
       genre_hash[genre] = 1
     end
-    return genre_hash
     end
-  end 
+    return genre_hash
+  end
 
 end
