@@ -33,6 +33,7 @@ def self.count
     @@genres.each do |genre|
   x = genre_hash[genre] = self.genres.count
     end
+    return x 
     end
 
 end
