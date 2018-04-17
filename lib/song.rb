@@ -31,7 +31,8 @@ def self.count
   def self.genre_count
     genre_hash = {}
     @@genres.each do |genre|
-    genre_hash[genre] = self.genres.count
+      if genre_hash[genre]
+      genre_hash[genre]  += 1 
     binding.pry
     end
     return genre_hash
