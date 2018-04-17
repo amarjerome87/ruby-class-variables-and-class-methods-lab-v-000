@@ -51,5 +51,6 @@ def self.count
       end
     end
     return artist_hash
+  end 
 
 end
