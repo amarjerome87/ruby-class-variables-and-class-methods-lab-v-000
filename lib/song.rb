@@ -38,5 +38,6 @@ def self.count
     end
     return genre_hash
     end
+  end 
 
 end
